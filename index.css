@@ -1,0 +1,10 @@
+@import "./assets/font/stylesheet.css";
+
+* {
+    font-family: 'Stolzl', serif;
+    font-weight: normal;
+}
+
+button {
+    border-width: 0;
+}
