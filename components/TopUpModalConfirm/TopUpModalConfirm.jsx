@@ -58,7 +58,7 @@ const TopUpModalConfirm = ({ onClose, open, changeStep, formData }) => {
                         src={qrCode} alt={""}
                     />
                 </Box>
-                <Typography
+                {/* <Typography
                     sx={{
                         fontSize: "11px",
                         fontFamily: 'Stolzl',
@@ -67,8 +67,8 @@ const TopUpModalConfirm = ({ onClose, open, changeStep, formData }) => {
                     }}
                 >
                     После перевода средств по реквизитам, указанным ниже, пожалуйста, прикрепите скриншот перевода / транзакции.
-                </Typography>
-                <Box>
+                </Typography> */}
+                {/* <Box>
                     <Button
                         variant='outlined'
                         onChange={changeStep}
@@ -83,7 +83,7 @@ const TopUpModalConfirm = ({ onClose, open, changeStep, formData }) => {
                     >
                         Загрузить
                     </Button>
-                </Box>
+                </Box> */}
                 <Button
                     variant='contained'
                     onClick={changeStep}
